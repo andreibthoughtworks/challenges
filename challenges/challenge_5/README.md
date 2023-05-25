@@ -14,8 +14,9 @@ platforms
 
 * Create a new method that receives the ad, reads the list of sites that should be searched from the database and saves
   in a new table the connections between the ad id and id's of sites that was also posted
+* If the time is short you can use an in-memory hardcoded list, the point of the exercise being to play with routines
 * The sites table can be filled with how many sites you want (manual or script, however you want).
-* You can use random functions to return if a ad was posted to a site or no
+* You can use random functions to return if an ad was posted to a site or no
 * The method should be called async while saving the ad and not interrupt the save flow.
 
 
